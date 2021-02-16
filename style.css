@@ -169,7 +169,7 @@ h3{
 	font-size: 60px;
 	color: var(--main-fonts-color);
 	text-shadow: 0px 0px 40px var(--main-decor-color);
-  transition: background-position 275ms ease;
+  transition: background-position 1075ms ease;
   background: linear-gradient(to right, rgb(55, 1, 78), rgb(55, 1, 78), 50%, #fff 50%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -255,11 +255,13 @@ h3:hover {
   animation: slide-up 0.4s ease;
   width: 315px;
 	height: 200px;
-  transition: width 2s;
+  /* transition: width 2s; */
 }
 
 .card:hover {
-  width: 630px;
+  /* width: 630px; */
+  background-color: #1E003D;
+  -webkit-transition: background-color .4s;
 }
 
 
