@@ -4,9 +4,10 @@
 :root{
 	--main-background: #0b0c0f;
 	--main-fonts-color: #fff;
-	--main-decor-color:#5E147D;
-    --main-header-background:#1E003D;
+	--main-decor-color:#4B1D57;
+  --main-header-background:#140F23;
 	--main-font-family: 'Poppins', sans-serif;
+
 }
 
 *{
@@ -80,18 +81,18 @@ header:hover{
   width: 100%;
   top: 50%;
   display: block;
-  border: 3px solid #5E147D;
+  border: 3px solid #FFC857;
   transform: translateX(-50%) translateY(-50%) rotate(0deg);
   animation: 10s infinite alternate ease-in-out tipsy;
 }
 
 .logo:before{
-    border-color: #5E147D #5E147D rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-color: #4B1D57 #4B1D57 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
   z-index: -1;
 }
 
 .logo:after {
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #5E147D #5E147D;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #4B1D57#4B1D57;
   box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
 }
 
@@ -135,20 +136,20 @@ a.nav-link{
 }
 
 #home .filter{
-	background: url('https://images.unsplash.com/photo-1544099858-75feeb57f01b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat;
+	background: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/a010-markusspiske-feb19-msp_1902_4971.jpg?w=1300&dpr=1&fit=default&crop=default&q=80&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=7b624b2fbacb599129ff88fced3b53ed') no-repeat;
 	background-size: cover;
 	background-position:center;
-    position: absolute;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
 	opacity:.20;
 }  
 
 .intro {
 	text-align:center;
-    color: var(--main-fonts-color);
+  color: var(--main-fonts-color);
 	z-index: 1;
 	margin: auto;
 	padding: 20px;
@@ -170,7 +171,7 @@ h3{
 	color: var(--main-fonts-color);
 	text-shadow: 0px 0px 40px var(--main-decor-color);
   transition: background-position 1075ms ease;
-  background: linear-gradient(to right, rgb(55, 1, 78), rgb(55, 1, 78), 50%, #fff 50%);
+  background: linear-gradient(to right, #4B1D57, #4B1D57, 50%, #fff 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -255,13 +256,13 @@ h3:hover {
   animation: slide-up 0.4s ease;
   width: 315px;
 	height: 200px;
-	transition: background-color 2s;
+  transition: background-color 2s;
   /* transition: width 2s; */
 }
 
 .card:hover {
   /* width: 630px; */
-  background-color: #1E003D;
+  background-color:#140F23;
   /* -webkit-transition: background-color .4s; */
 }
 
