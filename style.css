@@ -255,8 +255,8 @@ h3:hover {
 	border-radius:12px;
   background:var(--main-decor-color);
   animation: slide-up 0.4s ease;
-  width: 315px;
-	height: 200px;
+  width: 500px;
+	height: 282px;
   transition: background-color 2s;
   /* transition: width 2s; */
 }
@@ -299,7 +299,7 @@ h3:hover {
 }
 
 .card .work-content:hover{
-  	color: var(--main-decor-color);
+  color: var(--main-decor-color);
 	text-shadow: 0 0 11px var(--main-decor-color);
 }
 
@@ -320,8 +320,23 @@ h3:hover {
 	align-items: center;
 	justify-content: center;
 	color: var(--main-fonts-color);
+  background: url('') no-repeat;
+	background-size: cover;
 }
-	
+
+/* 
+#contact .filter-contact{
+  transition: 2s ease;
+	background: url('https://media3.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif?cid=ecf05e47qt1ryc10jb6k3qv8revkgseoqrfk0t7c08b6ayyx&rid=giphy.gif') no-repeat;
+	background-size: cover;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+	opacity:.10;
+} 
+	 */
 #contact p{
 	padding:10px;
 	text-align:center;
