@@ -210,8 +210,23 @@ h3:hover {
 }
 
 .social-media  a:hover {
+  animation-name: hoverPop;
+  animation-duration: .4s;
+  animation-fill-mode: forward;
 	color: var(--main-decor-color);
 	text-shadow: 0 0 50px var(--main-decor-color);
+}
+
+@keyframes hoverPop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  33% {
+    transform: scale(1.05);
+  }
+  66% {
+    transform: scale(.90);
+  }
 }
 
 /*──────────────────
