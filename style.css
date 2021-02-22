@@ -219,7 +219,7 @@ h3:hover {
 
 @keyframes hoverPop {
   0%, 100% {
-    transform: scale(1);
+    transform: scale(1.3);
   }
   33% {
     transform: scale(1.05);
@@ -235,12 +235,12 @@ h3:hover {
 
 #projects{
 	margin-top:100px;
-    height: 100%;
+  height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-    justify-content: center;
-	text-align:center;
+  justify-content: center;
+	text-align: center;
 	color: var(--main-fonts-color);
 }
 #projects h3{
@@ -281,6 +281,224 @@ h3:hover {
   background-color:#140F23;
   /* -webkit-transition: background-color .4s; */
 }
+
+
+
+/* NEW PROJECT CODE */
+
+.all {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  perspective: 10px;
+  transform: perspective(300px) rotateX(20deg);
+  will-change: perspective;
+  perspective-origin: center center;
+  transition: all 1.3s ease-out;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
+
+.all:hover {
+  perspective: 1000px;
+  transition: all 1.3s ease-in;
+  transform: perspective(10000px) rotateX(0deg);
+  opacity: 1;
+  transition-delay: 0s;
+}
+
+.all:hover > div {
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+.explainer:hover {
+    opacity: 0;
+}
+
+.all .text:hover {
+    opacity: 1;
+}
+
+.left {
+  width: 150px;
+  height: 100px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* background-color: #4B1D57; */
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+
+.center {
+  width: 150px;
+  height: 100px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* background-color: #4B1D57; */
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+
+.right {
+  width: 150px;
+  height: 100px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* background-color: #4B1D57; */
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+
+.lefter {
+  width: 150px;
+  height: 100px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* background-color: #4B1D57; */
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+
+.righter {
+  width: 150px;
+  height: 100px;
+  transform-style: preserve-3d;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px 5px rgba(100, 100, 255, .4);
+  opacity: 0;
+  transition: all .3s ease;
+  transition-delay: 1s;
+  position: relative;
+  background-position: center center;
+  background-size: fit;
+  background-repeat: no-repeat;
+  /* background-color: #4B1D57; */
+  cursor: pointer;
+  background-blend-mode: color-burn;
+}
+
+.left:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  /* background-color: #ccf; */
+}
+
+.center:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  /* background-color: #ccf; */
+}
+
+.right:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  /* background-color: #ccf; */
+}
+
+.lefter:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  /* background-color: #ccf; */
+}
+
+.righter:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  /* background-color: #ccf; */
+}
+
+.text {
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all .3s ease;
+  bottom: 0;
+  left: 5px;
+  position: absolute;
+  will-change: transform;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(100, 100, 255, .6)
+}
+
+.lefter {
+  transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+  background-image: url(https://github.com/raulsposito/barber_web_app/raw/master/BarberWebAppView.png);
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+}
+.left {
+  transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+  background-image: url(https://github.com/raulsposito/inner_cleaner_sinatra_app/raw/master/AppView.png);
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+}
+.center {
+  opacity: 1;
+  background-image: url(https://github.com/raulsposito/ddr_frontend/blob/main/img/DDRevolution2.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+}
+.right {
+  transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+  background-image: url(https://github.com/raulsposito/quote-market/blob/main/src/img/wp4050474.jpg?raw=true);
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+}
+.righter {
+  transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+  background-image: url(https://cdn-0.tarotx.net/wp-content/uploads/2019/05/thoth-spread-1024x685-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 150px 100px;
+}
+.explainer {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fff;
+  transition: all .6s ease;
+  width: 100%;
+  height: 100%;
+  background-color: #303050;
+  background-image: radial-gradient(circle at center top, #cce, #4B1D57);
+  border-radius: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, .8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* UP TO HERE!!! */
 
 
 @keyframes slide-up {
