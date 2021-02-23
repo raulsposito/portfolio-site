@@ -320,8 +320,8 @@ h3:hover {
 }
 
 .left {
-  width: 150px;
-  height: 100px;
+  width: 210px;
+  height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -339,8 +339,8 @@ h3:hover {
 }
 
 .center {
-  width: 150px;
-  height: 100px;
+  width: 210px;
+  height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -358,8 +358,8 @@ h3:hover {
 }
 
 .right {
-  width: 150px;
-  height: 100px;
+  width: 210px;
+  height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -377,8 +377,8 @@ h3:hover {
 }
 
 .lefter {
-  width: 150px;
-  height: 100px;
+  width: 210px;
+  height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -396,8 +396,8 @@ h3:hover {
 }
 
 .righter {
-  width: 150px;
-  height: 100px;
+  width: 210px;
+  height: 150px;
   transform-style: preserve-3d;
   border-radius: 10px;
   border: 1px solid #fff;
@@ -453,33 +453,33 @@ h3:hover {
 
 .lefter {
   transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
-  background-image: url(https://github.com/raulsposito/barber_web_app/raw/master/BarberWebAppView.png);
+  background-image: url(https://media-exp1.licdn.com/dms/image/sync/C4D27AQFTPc-RD8C-Fg/articleshare-shrink_480/0/1612984500838?e=1614182400&v=beta&t=UvJ763rMWvEplZ77J45tkVmQyMgUZiEezkdJZvo4EAs);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: 210px 150px;
 }
 .left {
   transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
   background-image: url(https://github.com/raulsposito/inner_cleaner_sinatra_app/raw/master/AppView.png);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: 210px 150px;
 }
 .center {
   opacity: 1;
-  background-image: url(https://github.com/raulsposito/ddr_frontend/blob/main/img/DDRevolution2.png?raw=true);
+  background-image: url(https://media-exp1.licdn.com/dms/image/sync/C4D27AQFXZxJZkI77Fg/articleshare-shrink_480/0/1613171643670?e=1614182400&v=beta&t=VfaIZvM4ssVjurBDwyXz0GL8Hzb7yV558aeSaC9qpdw);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: 210px 150px;
 }
 .right {
   transform: translateX(30px) translateZ(-25px) rotateY(5deg);
-  background-image: url(https://github.com/raulsposito/quote-market/blob/main/src/img/wp4050474.jpg?raw=true);
+  background-image: url(https://media-exp1.licdn.com/dms/image/sync/C4D27AQFmf1iVUzfXrA/articleshare-shrink_480/0/1612983735465?e=1614182400&v=beta&t=GL9Etbw0jy7q-nWUVUG_pHud3GKFdokIyqX-CycEYB0);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: fit;
 }
 .righter {
   transform: translateX(60px) translateZ(-50px) rotateY(10deg);
-  background-image: url(https://cdn-0.tarotx.net/wp-content/uploads/2019/05/thoth-spread-1024x685-1.jpg);
+  background-image: url(https://media-exp1.licdn.com/dms/image/sync/C4D27AQGlLbiwuEHYIg/articleshare-shrink_800/0/1612984314674?e=1614182400&v=beta&t=6Lswmb6L3byY5Hl3yBc_hfCNQcHbJJKnFCIhKYJMqT4);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: 210px 150px;
 }
 .explainer {
   font-weight: 300;
@@ -497,7 +497,7 @@ h3:hover {
   align-items: center;
   background-image: url(https://media3.giphy.com/media/3o8doWDjWvHz61qvfy/giphy.gif?cid=ecf05e47fokrpr7j9wwj9qpne10jrbbvv22kdc2n2ixxiyij&rid=giphy.gif);
   background-repeat: no-repeat;
-  background-size: 150px 100px;
+  background-size: 210px 150px;
 }
 
 
