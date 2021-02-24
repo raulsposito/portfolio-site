@@ -518,10 +518,12 @@ h3:hover {
   height: 200px;
   width: 200px;
   border-radius: 500px;  
+  opacity: 0.7;
 }
 
 .me:hover {
   box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+  opacity: 1;
 }
 
 @keyframes slide-up {
