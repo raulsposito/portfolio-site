@@ -503,6 +503,26 @@ h3:hover {
 
 /* UP TO HERE!!! */
 
+#about{
+  margin-top:100px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	text-align: center;
+	color: var(--main-fonts-color);
+}
+
+.me {
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;  
+}
+
+.me:hover {
+  box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
+}
 
 @keyframes slide-up {
     0% {
