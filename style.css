@@ -504,6 +504,7 @@ h3:hover {
 /* UP TO HERE!!! */
 
 #about{
+  padding-top: 70px;
   margin-top:100px;
   height: 100%;
 	display: flex;
@@ -519,11 +520,13 @@ h3:hover {
   width: 200px;
   border-radius: 500px;  
   opacity: 0.7;
+  transition: transform 1.5s;
 }
 
 .me:hover {
   box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
   opacity: 1;
+  transform: scale(1.05);
 }
 
 @keyframes slide-up {
@@ -570,6 +573,7 @@ h3:hover {
 ──────────────────*/
 
 #contact{
+  padding-top: 70px;
 	margin: auto;
 	padding-bottom: 20px;
 	height: 600px;
